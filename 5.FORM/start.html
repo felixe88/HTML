@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <fieldset>
+      <legend>registration form</legend>
+      <form>
+        <label>Name</label>
+        <input type="text" id="name" name="name" />
+        <br />
+        <br />
+        <label>Last-Name</label>
+        <input type="text" id="last-name" name="last-name" />
+        <br />
+        <br />
+        <label>E-Mail</label>
+        <input type="text" id="e-mail" name="e-mail" />
+        <br />
+        <br />
+        <label>Password</label>
+        <input type="password" id="password" name="password" />
+        <br />
+        <br />
+        <label>Date of birth</label>
+        <input type="date" name="date" />
+        <br />
+        <br />
+        <label>Telephone Number</label>
+        <input type="text" id="number" name="number" />
+        <br />
+        <br />
+        <label for="plan">chose one of our plans</label>
+        <select name="plans" id="plans-select">
+          <option value="">--Please choose an option--</option>
+          <option value="1plan">free plan</option>
+          <option value="2plan">bronze plan 10$</option>
+          <option value="3plan">silver plan 15$</option>
+          <option value="4plan">gold plan 20$</option>
+        </select>
+        <br /><br />
+        <input type="checkbox" id="pro-plan" name="pro-plan" />
+        <label for="pro-plan">pro plan</label>
+        <br />
+        <br />
+        <label for="CVC">CVC</label>
+        <input type="text" maxlength="16" minlength="16" name="CVC">
+        <br>
+        <br>
+        <label for="expiration-date">Expiration date</label>
+        <input type="date" name="expiration-date">
+        <br>
+        <br>
+        <label for="billing-address">Billing address</label>
+        <input type="text" name="billing-address">
+        <br>
+        <br>
+        <button>click!</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
